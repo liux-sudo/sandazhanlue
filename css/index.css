@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+html{
+    overflow: hidden;
+} */
+
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url('PingFang-SC-Medium.woff'),  
+    url('PingFang-SC-Medium.ttf'),
+    url('PingFang-SC-Medium.eot'); /* IE9 */
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+.img0{
+    position: absolute
+}
+.img1{
+    left: 256px;
+    width: 203px;
+    height: 158px;  
+}
+.img2{
+    top: 149px;
+    left: 145px;
+    width: 151px;
+    height: 151px;
+}
+
+.img3{
+    top: 331px;
+    left: 25px;;
+    width: 121px;
+    height: 118px;
+}
+.img4{
+    top: 132px;
+    left: 910px;
+    width: 162px;
+    height: 162px;
+    z-index: 10;
+}
+.img5{
+    margin-left: 504px;
+    width: 638px;
+    height: 512px;
+    margin-top: 568px;
+    z-index: 10;
+}
+.img6{
+    margin-left: 1207px;
+    width: 644px;
+    height: 423px;
+}
+.img7{
+    margin-left: 1504px;
+    width: 957px;
+    height: 833px;
+    margin-top: 247px;
+}
+.img8{
+   top: 106px;
+    left: 2805px;
+    width: 77px;
+    height: 75px;
+}
+.img9{
+    width: 91px;
+    height: 89px;
+    left: 2953px;
+    top: 44px;
+}
+.img-1{
+    width: 118px;
+    height: 119px;
+    top: 77px;
+    left: 2579px;
+}
+.img-2{
+    width: 138px;
+    height: 138px;
+    top: 19px;
+    left:3267px;
+}
+.img-3{
+    width: 295px;
+    height: 296px;
+   left: 3545px;
+   top: 784px;
+}
+.img-4{
+    width: 952px;
+    height: 973px;
+    top: 107px;
+    left: 2888px;
+}
+
+.view{
+    width: 3840px;
+    height: 1080px;
+    background: #8ABEED;
+}
+
+.header{
+    width: 100%;
+}
+
+.header h1{
+    width:1054px;
+    height:84px;
+    font-size:60px;
+    font-family:'pictos';
+    font-weight:600;
+    color:rgba(16,16,16,1);
+    line-height:84px;
+    letter-spacing:18px; 
+    position: absolute;
+    top: 50px;
+    left: 1393px;
+}
+
+.left{
+    width: 1094px;
+    height: 1080px;
+    background: url(../images/2.png);
+    position: relative;
+    float:left;
+}
+
+.content{
+    width: 860px;
+    height: 740px;
+    background: rgba(255,255,255,1);
+    box-shadow:0px 1px 15px 0px rgba(38,134,199,0.6);
+    border-radius:1px;
+    position: absolute;
+    top: 240px;
+    left: 140px;
+    right: 94px;
+    bottom: 100px;
+    z-index: 90;
+}
+
+
+
+.content>h1{
+    width:155px;
+    font-size:34px;
+    font-family:'pictos';
+    font-weight:600;
+    color:rgba(62,59,59,1);
+    line-height:48px;
+    letter-spacing:4px;
+    margin-top: 24px;
+    margin-left: 352px;
+}
+
+.content>p{
+    width:149px;
+    height:11px;
+    margin-left: 340px;
+    margin-top: 1px;
+    font-size:1px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(80,80,80,1);
+    line-height:10px;
+    letter-spacing:2px;
+    white-space: nowrap;
+}
+
+.content .top{
+    margin-top: 16px;
+    margin-left: 60px;
+    display: flex;
+}
+.content .top .img{
+    width:480px;
+    height:270px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 1px 15px 0px rgba(38,134,199,0.6);
+    border-radius:1px;
+}
+
+.content .top .img img{
+    width: 100%;
+}
+
+.ts{
+    width: 240px;
+    height: 270px;
+    margin-left: 20px;
+}
+
+.ts div{
+    width:240px;
+    height:270px;
+    background:rgba(238,237,240,1);
+}
+
+.ts div img{
+    width: 100%;
+}
+
+.ts div p{
+    width:166px;
+    height:22px;
+    font-size:16px;
+    font-family:'pictos';
+    font-weight:500;
+    color:rgba(70,70,70,1);
+    line-height:22px;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.ts div p:nth-of-type(2){
+    width:126px;
+    height:20px;
+    font-size:14px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(80,80,80,1);
+    line-height:20px;
+    margin-top: 9px;
+}
+
+.ts div p:nth-of-type(3){
+    width: 63px;
+    height: 17px;
+    margin-top: 19px;
+}
+
+.ts div p:nth-of-type(3) a{
+    display: block;
+    width:48px;
+    height:17px;
+    font-size:12px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(0,80,229,1);
+    line-height:17px;
+    
+}
+
+.ts div p:nth-of-type(3) img{
+    display: inline-block;
+    width: 15px;
+    height: 7px;
+    margin-left: 8px;
+    margin-top: -6px;
+}
+
+/* 轮播图开始 */
+.lbt{
+    width:740px;
+    height:297px;
+    margin-left: 60px;
+    margin-top: 29px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+
+/* 右边开始 */
+.right{
+    width: 2746px;
+    height: 1080px;
+    float: left;
+}
+.zl{
+    z-index: 99;
+}
+.zl h1{
+    width:155px;
+    height:48px;
+    font-size:34px;
+    font-family:'pictos';
+    font-weight:600;
+    color:rgba(62,59,59,1);
+    line-height:48px;
+    letter-spacing:4px;
+    margin-left: 352px;
+    margin-top: 24px;
+}
+
+.zl .yw{
+    width:167px;
+    height:10px;
+    font-size:8px !important;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(80,80,80,1);
+    line-height:10px;
+    letter-spacing:1px;
+    white-space: nowrap;
+    margin-left: 340px;
+}
+
+.zl .zf{
+    width: 741px;
+    height: 270px;
+    display: flex;
+    margin-top: 16px;
+    margin-left: 60px;
+    border-bottom: 1px solid rgba(216,216,216,1);
+    padding-bottom: 36px;
+}
+
+.zf-video{
+    width: 480px;
+    height: 270px;
+}
+
+.zf-video img{
+    width: 100%;
+}
+
+.zf-content{
+    width: 261px;
+    height: 270px;
+    background: url(../images/beijingtu.png);
+}
+
+.zf-content div{
+    width: 237px;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.zf-content div h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family:'pictos' ;
+    color:rgba(80,80,80,1);
+    margin-top: 32px;
+}
+
+.zf-content div p{
+    font-size:12px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(124,124,124,1);
+}
+
+.zf-content div p:nth-last-of-type(1){
+    margin-top: 16px;
+    font-size:14px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(80,80,80,1);
+    line-height: 25px;
+    text-align: left;
+}
+
+.tuijian{
+    width: 741px;
+    background: red;
+    margin: 0 auto;
+    margin-top: 37px;
+}
+
+.tuijian ul li{
+    float: left;
+    margin-left: 9px;
+}
+
+.tuijian ul li h2{
+    width: 124px;
+    height: 17px;
+    padding-left: 10px;
+    border-left: 2px solid rgba(1,78,255,1);
+    font-size: 20px;
+    line-height: 17px;
+}
+
+.tuijian ul li div{
+    width: 238px;
+    height: 182px;
+    margin-top: 21px;
+    position: relative;
+}
+
+.tuijian ul li div img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.tuijian ul li div img:nth-of-type(1){
+    top:0;
+    z-index: 10;
+}
+.tuijian ul li div img:nth-of-type(2){
+    width: 228px;
+    height: 174px;
+    left: 50%;
+    margin-left: -114px;
+    top:16px;
+    z-index: 8;
+}
+.tuijian ul li div img:nth-of-type(3){
+    width: 220px;
+    height: 167px;
+    left: 50%;
+    margin-left: -110px;
+    top:32px;
+}
+
+.main{
+    display: flex;
+    z-index: 99;
+
+}
+
+/* 右边开始 */
+.right .main .zl{
+    width: 860px;
+    height: 740px;
+    background: #fff;
+    margin-top: 240px ;
+    box-shadow: 0 2px 18px 0 #2D9CE8;
+}
+
+.right .main .video{
+    z-index: 99;
+    width: 1636px;
+    height: 740px;
+    background: #fff;
+    box-shadow: 0 2px 18px 0 #2D9CE8;
+    margin-top: 240px;
+    margin-left: 103px;
+}
+
+.video{
+    text-align: center;
+}
+.video h1{
+    font-size:34px;
+    font-family:'pictos';
+    font-weight:600;
+    color:rgba(62,59,59,1);
+    line-height:47px;
+    letter-spacing:4px;
+    margin-top: 23px;
+}
+
+.video-content{
+    width: 1516px;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.video-content .video1{
+    width: 1033px;
+    height: 580px;
+
+}
+
+.video-content .video1 img{
+    width: 100%;
+}
+
+/* 专栏开始 */
+.zhuanlan {
+    width: 468px;
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
+.zhuanlan ul .zhuanlan-jianhang h2{
+    width:177px;
+    height:17px;
+    font-weight:600;
+    color:rgba(36,36,36,1);
+    line-height:17px;
+    border-left: 2px solid rgba(1,78,255,1);
+    text-align: left;
+    padding-left: 7px;
+}
+
+.zhuanlan ul .zhuanlan-jianhang>div{
+    width: 462px;
+    margin-top: 21px;
+    display: flex;
+}
+.zhuanlan ul .zhuanlan-jianhang>div .img a{
+    display: block;
+    width: 149px;
+    height: 87px;
+}
+
+.zhuanlan ul .zhuanlan-jianhang>div .img a:nth-of-type(1){
+    margin-bottom: 5px;
+}
+
+.zhuanlan ul .zhuanlan-jianhang>div .img a img{
+    width: 100%;
+}
+.zhuanlan ul .zhuanlan-jianhang>div .big a{
+    width: 307px;
+    height: 179px;
+}
+
+.zhuanlan ul .zhuanlan-jianhang>div .big a img{
+    width: 100%;
+    margin-left: 6px;
+}
+
+.zhuanlan ul .zhuanlan-bd>div{
+    display: flex;
+    margin-top: 30px;
+}
+
+.zhuanlan ul .zhuanlan-bd h2{
+    height: 24px;
+    border-left: 2px solid rgba(1,78,255,1);
+    text-align: left;
+    padding-left: 7px;
+    flex: 1;
+    line-height: 24px;
+}
+.zhuanlan-bd>div>div span{
+    display: inline-block;
+    width:54px;
+    height:25px;
+    font-size:18px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(36,36,36,1);
+    line-height: 25px;
+}
+.zhuanlan-bd>div>div img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;;
+}
+.zl-content{
+    box-sizing: border-box;
+    width: 463px;
+    height: 289px;
+    padding: 21px 17px;
+    background:rgba(243,242,245,1);
+    margin-top: 13px !important;
+}
+
+.zl-content ul li{
+    display: flex;
+    padding-bottom: 20px;
+    width: 428px;;
+}
+
+.zl-content ul li:nth-of-type(2){
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid rgba(216,216,216,1);
+    border-bottom: 2px solid rgba(216,216,216,1);
+}
+
+.zl-content ul li:nth-of-type(3){
+    padding-top: 20px;
+}
+
+.zl-content ul li>span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background:rgba(1,78,255,1);
+    margin-top: 11px;
+}
+.zl-content ul li p{
+    width:287px;
+    height:28px;
+    font-size:20px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(36,36,36,1);
+    line-height:28px;
+    margin-left: 11px;
+}
+.zl-content ul li p:nth-of-type(2){
+    width:308px;
+    height:20px;
+    font-size:14px;
+    font-family:'pictos';
+    font-weight:400;
+    color:rgba(80,80,80,1);
+    line-height:20px;
+}

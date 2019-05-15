@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* 左边部分开始 */
+.content-left{
+    width:256px;
+    height:740px;
+    background:rgba(22,86,210,1);
+    position: relative;
+}
+
+.content{
+    display: flex;
+}
+
+.content-left h1{
+    height: 47px;
+    line-height:47px;
+    font-size:34px;
+    font-family:'pictos';
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    letter-spacing: 4px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.content-left p{
+    height:18px;
+    font-size:12px;
+    font-family:'楷体';
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:17px;
+    letter-spacing:1px;
+    text-align:center;
+}
+.content-left .jx{
+    width: 246px;
+    height: 336px;
+    position: absolute;
+    top: 178px;
+    left: 56px;
+
+}
+.content-left .hb{
+    width: 246px;
+    height: 336px;
+    position: absolute;
+    top: 201px;
+    left: 82px;
+}
+
+.content-left .code{
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    bottom: 87px;
+    left: 64px;
+}
+
+.content-left p:nth-of-type(2){
+    height:13px;
+    font-size:12px;
+    font-family:'楷体';
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:13px;
+    position: absolute;
+    bottom: 65px;
+    left: 65px;
+}
+.content-right-jx{
+    width: 68px;
+    height: 68px;
+    border:3px solid rgba(36,36,36,1);
+    margin-left: 115px;
+    margin-top: 135px;
+}
+
+.content-right-jx p{
+    width:139px;
+    height:38px;
+    font-size:40px;
+    font-family:'pictos';
+    font-weight:600;
+    color:rgba(6,6,6,1);
+    line-height:37px;
+    letter-spacing:6px;
+    padding: 6px;
+    background:#fff;
+    margin-top: 34px;
+    margin-left: 39px;
+}
+
+.content-right>p{
+    height:14px;
+    font-size:12px;
+    font-family:'pictos';
+    font-weight:500;
+    color:rgba(80,80,80,1);
+    line-height:13px;
+    letter-spacing:2px;
+    margin-left: 154px;
+    margin-top: 15px;
+}
+
+.price{
+    margin-left: 115px;
+}
+
+.price div:nth-of-type(1){
+    box-sizing: border-box;
+    width: 277px;
+    height: 28px;
+    background: url(../images/list-images/bj1.png);
+    background-size: 277px 28px;
+    margin-top: 28px;
+    float: left;
+    font-size:12px;
+    font-family:'FZLTZHK--GBK1-0';
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:19px;
+    letter-spacing:2px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.price div:nth-of-type(2){
+    width: 153px;
+    height: 28px;
+    float: left;
+    background: url(../images/list-images/bj2.png);
+    background-size: 153px 28px;
+    margin-top: 28px;
+    margin-left: 10px;
+    text-align: center;
+    font-size:14px;
+    font-family:'FZLTZHK--GBK1-0';
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:19px;
+    letter-spacing:2px;
+    line-height: 28px;
+}
+
+.price div:nth-of-type(3){
+    width: 277px;
+    height: 28px;
+    float: left;
+    background: url(../images/list-images/bj2.png);
+    background-size: 277px 28px;
+    margin-top: 10px !important;
+    text-align: center;
+    font-size:14px;
+    font-family:'FZLTZHK--GBK1-0';
+    font-weight:normal;
+    color:rgba(255,255,255,1);
+    line-height:19px;
+    letter-spacing:2px;
+    line-height: 28px;
+    clear: both;
+}
+
+.price-content{
+    width: 200px;
+    height: 100px;
+    float: left;
+    clear: both;
+}
+
+.price-content ul li h1{
+    width:84px;
+    height:18px;
+    border-left: 2px solid rgba(10,84,255,1);
+    padding-left: 7px;
+    font-size:20px;
+    font-family:'PingFangSC-Semibold';
+    font-weight:600;
+    color:rgba(80,80,80,1);
+    line-height:17px;
+}
+
+.price-content ul li{
+    margin-top: 27px;
+}
+
+.price-content ul li:nth-of-type(1){
+    margin-top: 43px;
+}
+
+.price-content ul li p{
+    width:230px;
+    height:19px;
+    font-size:16px;
+    font-family:'PingFangSC-Regular';
+    font-weight:400;
+    color:rgba(120,120,120,1);
+    line-height:19px !important;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.price-content ul li .xy{
+    width:263px;
+    height:28px;
+    font-size:20px;
+    font-family:'PingFangSC-Medium';
+    font-weight:500;
+    color:rgba(165,165,165,1);
+    line-height:28px;
+    letter-spacing:2px;
+    background: none;
+    margin-top: 25px !important;
+    margin-left: 177px !important;
+}
